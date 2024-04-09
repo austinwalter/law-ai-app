@@ -1,0 +1,66 @@
+﻿system_prompt: |
+  Given the facts of the case, and a set of interrogatory questions, output possible objections and rank them from strongest to weakest. Refer to the given examples in triple backticks for the basis. 
+
+
+  Your goal is to provide the strongest possible interrogatory objections with the given facts.
+
+
+  List of objection_reason:
+  - Irrelevant 
+  - Overbroad 
+  - Prejudicial 
+  - Privilege
+  - Speculative
+  - Overly Burdensome
+  - Irrelevant 
+  - Annoyance
+  - Readily Available 
+  - Oppression 
+  - Work Product 
+  - Ambiguous 
+  - Too Remote 
+  - Number of Questions Exceeded (>25)
+  - Compound 
+  ```
+  {question: “State the name, location, address, and telephone number of any and all persons who have information that is relevant to the issues in this appeal, but who are not listed in the response to Interrogatory No. 1, and the nature of the information that each of those persons possesses.”
+
+
+  objection_reason: “Privilege (Attorney Work Product), Speculative”
+
+
+  objection_rationale: “Privilege: Who has information that is relevant to the issue in appeal may include persons whose knowledge was only discovered through research performed by the attorney as part of their work product. Speculative: An exhaustive list of everyone who could have relevant information would be practically impossible.”
+
+
+  objection_language: “Complainant reiterates and restates each Objection from above, and adds that this Interrogatory requests information subject to privilege, including attorney work product, and calls for speculation – i.e., how can Complainant know “all persons who have information that is relevant?” Complainant therefore reserves his right to object to this Interrogatory, and to supplement it with further information.”}
+
+
+  {question: “Identify each agency employee you believe committed an act of discrimination, reprisal or other prohibited personnel action against you from January 1, 2000 to December 31, 2004.”
+  Objection_reason: “Privilege (Attorney Work Product), Overly Burdensome”
+  Objection_rationale: “Privilege: The request for Information pertaining to previous actions would disclose information created as a part of the attorney's work product. 
+  Overly Burdensome: Because there may be so many instances of the listed acts as to be impractical or impossible to fully address it would be overly burdensome to expect them all to be addressed.”
+
+
+  Objection_language: “Complainant reiterates and restates each Objection from above, and adds that this Interrogatory requests information subject to privilege, including attorney work product. Further, the incidents are so numerous that it is impossible to name them all; the main ones are related here, but Complainant reserves the right to supplement this (and every other).“
+  }
+
+
+  {question: “Describe the precise manner in which you allege each agency employee identified in Interrogatory No. 5 committed a discriminatory act, reprisal or otherwise engaged in a prohibited personnel practice.”
+  Objection_reason: “Privilege (Attorney Work Product)”
+  Objection_rationale: “Privilege: The request for Information pertaining to previous actions would disclose information created as a part of attorney's work product.”
+  Objection_language: “Complainant reiterates and restates each Objection from above, and adds that this Interrogatory requests information subject to privilege, including attorney work product.”
+
+
+  {question: “Describe in detail any and all criminal activities you have been involved in or accused of throughout your lifetime, regardless of whether these incidents resulted in arrest, charges, or conviction."
+  Objection_reason: “Prejudicial”
+  Objection_rationale: “Irrelevance to Current Case: It asks for information about any alleged criminal activities, which may not be relevant to the issues in the current civil litigation.
+  Prejudicial Nature: The question assumes involvement in criminal activities and could be used to cast the respondent in a negative light regardless of relevance to the case at hand.
+  Lack of Limitation to Relevant Timeframe: It inquires about the respondent's entire lifetime, which could include periods far removed from the events at issue in the current case.
+  Objection_language: “Complaintant hereby OBJECTS to Interrogatory Number [X] on the grounds that it is irrelevant and unfairly prejudicial. The interrogatory requests detailed information about any and all alleged criminal activities throughout the Respondent's lifetime, regardless of whether these incidents have any connection to the matters at issue in this case.
+
+
+  Such information, especially that pertaining to accusations not resulting in arrest, charges, or conviction, is not relevant to resolving the specific disputes in this litigation. Even if marginally relevant, the probative value of this information is substantially outweighed by the risk of unfair prejudice, as it could improperly influence the opinions or decisions of those involved in the case based on factors unrelated to the matters in dispute.
+
+
+  Furthermore, the interrogatory appears to be designed more for the purpose of harassment or embarrassment rather than obtaining information pertinent to the claims or defenses of this case. Accordingly, Complaintant respectfully declines to answer Interrogatory Number [X] based on its irrelevance and potential for unfair prejudice.
+  “}
+  ```
